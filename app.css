@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5ECE5ff;
+}
+
+#navbar {
+    background-color: #F5ECE5ff;
+}
+
+#navbar .nav-item a {
+    color: #653818ff;
+}
+
+#navbar button {
+    color: #653818ff;
+}
+
+#navbar .home {
+    font-weight: 600;
+}
+
+#navbar .navbar-brand {
+    font-family: 'Seaweed Script', cursive;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #653818ff;
+}
+
+#section1 h2 {
+    font-size: 2em;
+    font-weight: 600;
+    color: rgb(101, 42, 3);
+}
+
+#section1 p {
+    font-size: 1.2em;
+    line-height: 1;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: rgb(101, 42, 3);
+    margin-bottom: 1.8em;
+}
+
+#section1 a {
+    color: white;
+    font-size: 1em;
+    padding: 0.5em 0.6em;
+    text-decoration: none;
+    background-color: #9C4301ff;
+    border: none;
+}
+
+#section1 a:hover {
+    color: #9C4301ff;
+    background-color: white;
+    border: 2px solid #9C4301ff;
+}
+
+#section1 .Coffee-image {
+    background: linear-gradient(120deg, #F5ECE5ff 30%, #9C4301ff);
+}
+
+@media (min-width: 900px) {
+    .navbar-brand {
+        margin-left: 3em;
+    }
+
+    .navbar-nav {
+        margin-left: 30em;
+    }
+
+    .unique {
+        border: 2px solid #653818ff;
+        border-radius: 5px;
+        margin-left: 1em;
+    }
+
+    .nav-item {
+        padding: 0 0.8em;
+    }
+
+    .nav-item :hover {
+        border-bottom: 2px solid #653818ff;
+    }
+
+}
