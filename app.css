@@ -62,31 +62,112 @@ body {
     border: 2px solid #9C4301ff;
 }
 
-#section1 .Coffee-image {
-    background: linear-gradient(120deg, #F5ECE5ff 30%, #9C4301ff);
+#section1 .welcome-words {
+    background: #F5ECE5ff;
 }
 
-@media (min-width: 900px) {
+#section1 .Coffee-image {
+    /* background: repeating-linear-gradient(45deg, #F5ECE5ff, #fff 15%, #9C4301ff 20%); */
+    background: linear-gradient(160deg, #F5ECE5ff 5%, transparent, #9C4301ff); 
+    /* background: repeating-linear-gradient(transparent,  #F5ECE5ff 40px),
+            repeating-linear-gradient(0.25turn, transparent, #9C4301ff 50px) */
+}
+
+#section1 .Coffee-image img {
+    width: 25em;
+}
+
+#section2 {
+    background: linear-gradient(180deg, #F5ECE5ff 50%, #ECDCCFff 50%);
+}
+
+#section2 .cups {
+    border: 2px solid rgb(238, 204, 175);
+    background-color: rgb(238, 204, 175);
+    margin: 1.5em 2em;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#section2 .colored {
+    background-color: #9C4301ff;
+    border: 2px solid #9C4301ff;
+}
+
+#section3 {
+    background-color: #ECDCCFff;
+}
+
+#section3 h2 {
+    font-size: 2em;
+    font-weight: 600;
+    color: rgb(101, 42, 3);
+}
+
+#section3 p {
+    font-size: 1.2em;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: rgb(101, 42, 3);
+    margin-bottom: 1.8em;
+}
+
+@media (min-width: 850px) {
     .navbar-brand {
         margin-left: 3em;
     }
 
     .navbar-nav {
-        margin-left: 30em;
+        margin-left: 32em;
     }
 
     .unique {
         border: 2px solid #653818ff;
         border-radius: 5px;
         margin-left: 1em;
+        padding: 0.01em 0.8em;
     }
 
     .nav-item {
-        padding: 0 0.8em;
+        margin: 0 0.2em;
     }
 
     .nav-item :hover {
         border-bottom: 2px solid #653818ff;
     }
 
+    #section2 .cups {
+        width: 200px;
+        height: 150px;
+    }
+
+    #section3 .rectangle-draw {
+        width: 80px;
+        height: 60px;
+        display: block;
+        background-color: #9C4301ff;
+        border: 1px solid #9C4301ff;
+        border-radius: 0% 50% 50% 0%;
+    }
+
+    #section3 .rectangle-draw>i {
+        width: 50px;
+        color: white;
+    }
+
+    #section3 .dot-draw {
+        width: 10px;
+        height: 20px;
+        border-radius: 50px;
+        display: block;
+        background-color: #9C4301ff;
+        border: none;
+        margin-top: 3em;
+        margin-left: 0.5em;
+    }
 }
