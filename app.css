@@ -32,6 +32,10 @@ body {
     color: #653818ff;
 }
 
+#section1 {
+    background-color: #F5ECE5ff;
+}
+
 #section1 h2 {
     font-size: 2em;
     font-weight: 600;
@@ -69,7 +73,7 @@ body {
 
 #section1 .Coffee-image img {
     width: 25em;
-    filter: drop-shadow(90px 100px 90px #9C4301ff);
+    filter: drop-shadow(30px 30px 150px #9C4301ff);
 }
 
 #section2 {
@@ -318,19 +322,23 @@ body {
     width: 6rem;
     height: 3.5rem;
 }
+
 #section8 {
     background: linear-gradient(180deg, #ECDCCFff 75%, #5E2901ff 25%);
 }
-#section8  h2 {
+
+#section8 h2 {
     font-size: 2em;
     font-weight: 600;
     color: rgb(101, 42, 3);
 }
+
 #section8 .advertise {
-          display: flex;
-          justify-content: center;
-          align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
+
 #section8 .advertise p {
     font-size: 2em;
     font-weight: 600;
@@ -338,29 +346,36 @@ body {
     letter-spacing: 2px;
     line-height: 1.5;
 }
+
 #section8 .s1 {
-    color:  #C38B64ff
+    color: #C38B64ff
 }
+
 #section8 .s2 {
     color: #fff;
 }
+
 #section8 .picture {
     display: flex;
     justify-content: center;
 }
+
 #section8 .pic {
     width: 250px;
     height: 250px;
 }
-#footer {
+
+/* #footer {
     background-color: #5E2901ff;
     box-sizing: border-box;
 }
+
 #footer .bucks {
     display: flex;
     flex-direction: column;
     justify-content: left;
 }
+
 #footer .subscribe {
     display: flex;
     flex-direction: column;
@@ -368,63 +383,76 @@ body {
     padding-left: 4em;
     color: #e9edc9;
 }
+
 #footer .subscribe form {
     padding-top: 3em;
 }
-#footer .subscribe form > input {
+
+#footer .subscribe form>input {
     width: 12rem;
     height: 2rem;
     padding: 0 0.8rem;
-    /* font-size: 1.3rem; */
     background-color: #fff;
     border: none;
     border-radius: 10px;
+} */
+/* 
+#footer .subscribe form>input::placeholder {
+    font-size: 1rem;
+    color: #000;
 }
-#footer .subscribe form > input::placeholder {
-   font-size: 1rem;
-   color: #000;
-}
+
 #footer ul {
     list-style: none;
-    color:  #ECDCCFff;
+    color: #ECDCCFff;
 }
+
 #footer .links ul {
     font-size: 0.8em;
     font-weight: 300;
 }
+
 #footer .links li:first-of-type {
     margin-top: 1em;
 }
+
 #footer .bucks h2 {
     font-size: 2em;
     font-weight: 600;
     color: #fff;
     font-family: 'Seaweed Script', cursive;
 }
+
 #footer .bucks ul {
     display: flex;
     flex-direction: row;
     justify-content: left;
     margin-top: 2em;
 }
-#footer .bucks ul > li {
+
+#footer .bucks ul>li {
     margin-right: 0.5em;
 }
-#footer .bucks ul > li > i {
-   font-size: 1em;
+
+#footer .bucks ul>li>i {
+    font-size: 1em;
 }
+
 #footer .icons ul {
     display: flex;
 }
-#footer .icons ul > li > i {
+
+#footer .icons ul>li>i {
     font-size: 1em;
     margin-right: 0.5em;
 }
+
 #footer .items {
     font-size: 0.8em;
     font-weight: 300;
     color: #f0ead240;
-}
+} */
+
 @media (min-width: 800px) {
     .navbar-brand {
         margin-left: 3em;
@@ -480,6 +508,10 @@ body {
         margin-left: 0.5em;
     }
 
+    #section4 ::placeholder {
+        font-size: 0.5em;
+    }
+
     #section6 .middle-form-input {
         width: 28rem;
         height: 3.5rem;
@@ -508,9 +540,11 @@ body {
     #section7 .items {
         padding: 0 4em;
     }
+
     #section7 .items h2 {
         font-size: 2em;
     }
+
     #section7 .c-draw {
         width: 60px;
         height: 60px;
@@ -520,7 +554,7 @@ body {
         border: none;
         margin-left: 25em;
     }
-    
+
     #section7 .dot-draw {
         width: 10px;
         height: 10px;
@@ -531,6 +565,7 @@ body {
         margin-left: 23em;
         margin-top: 0;
     }
+
     #section8 .dot-draw {
         width: 10px;
         height: 10px;
@@ -543,7 +578,43 @@ body {
     }
 }
 
-@media (max-width: 365px) {
+@media (max-width: 420px) {
+    #section1 h2 {
+        font-size: 1.2em;
+    }
+
+    #section1 p {
+        font-size: 0.8em;
+    }
+
+    #section1 a {
+        color: white;
+        font-size: 0.6em;
+        padding: 0.5em 0.8em;
+        text-decoration: none;
+        background-color: #9C4301ff;
+        border: none;
+    }
+
+    #section1 .Coffee-image img {
+        width: 11em;
+    }
+
+    #section3 h2 {
+        font-size: 1.2em;
+    }
+
+    #section3 p {
+        font-size: 0.8em;
+    }
+    
+    #section4 ::placeholder {
+        font-size: 0.8em;
+    }
+    
+    #section4 button {
+        font-size: 0.8em;
+    }
     #section6 .middle-form-input {
         width: 14rem;
         height: 3.5rem;
@@ -570,8 +641,8 @@ body {
     }
 
     #section2 .cups {
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
     }
 
     #section6 h2 {
@@ -581,17 +652,24 @@ body {
         margin-bottom: 1.8rem;
     }
 
+    #section6 .middle-form-btn {
+        padding: 0.2em 0.5em;
+        font-size: 1.2rem;
+    }
+
     #section7 .items {
         padding: 2em 1em;
     }
+
     #section7 .btn {
         margin-top: 0.5em;
         display: flex;
         justify-content: center;
         padding: 0;
     }
+
     #section8 .h2 {
         font-size: 1.5rem;
     }
-  
+
 }
