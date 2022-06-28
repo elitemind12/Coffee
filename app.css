@@ -126,8 +126,9 @@ body {
     background-color: #fff;
 }
 
-#section4 ::placeholder {
+#section4 .form-control::placeholder {
     color: rgb(154, 75, 19);
+    font-size: 1rem;
 }
 
 #section4 button {
