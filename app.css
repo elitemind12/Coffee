@@ -365,93 +365,36 @@ body {
     height: 250px;
 }
 
-/* #footer {
+#section9 {
     background-color: #5E2901ff;
-    box-sizing: border-box;
 }
 
-#footer .bucks {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-}
-
-#footer .subscribe {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    padding-left: 4em;
-    color: #e9edc9;
-}
-
-#footer .subscribe form {
-    padding-top: 3em;
-}
-
-#footer .subscribe form>input {
-    width: 12rem;
-    height: 2rem;
-    padding: 0 0.8rem;
-    background-color: #fff;
-    border: none;
-    border-radius: 10px;
-} */
-/* 
-#footer .subscribe form>input::placeholder {
-    font-size: 1rem;
-    color: #000;
-}
-
-#footer ul {
+#section9 ul {
     list-style: none;
-    color: #ECDCCFff;
-}
-
-#footer .links ul {
-    font-size: 0.8em;
-    font-weight: 300;
-}
-
-#footer .links li:first-of-type {
+    color: rgb(193, 145, 106);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     margin-top: 1em;
 }
 
-#footer .bucks h2 {
-    font-size: 2em;
-    font-weight: 600;
-    color: #fff;
-    font-family: 'Seaweed Script', cursive;
+#section9 ul>li:nth-child(1) {
+    padding-right: 2em;
 }
 
-#footer .bucks ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    margin-top: 2em;
+#section9 ul>li:nth-child(3) {
+    padding-left: 2em;
 }
 
-#footer .bucks ul>li {
-    margin-right: 0.5em;
+#section9 ul>li>i {
+    font-size: 1.5em;
 }
 
-#footer .bucks ul>li>i {
-    font-size: 1em;
-}
-
-#footer .icons ul {
-    display: flex;
-}
-
-#footer .icons ul>li>i {
-    font-size: 1em;
-    margin-right: 0.5em;
-}
-
-#footer .items {
-    font-size: 0.8em;
+#section9 span {
+    font-size: 1.2em;
     font-weight: 300;
     color: #f0ead240;
-} */
+}
 
 @media (min-width: 800px) {
     .navbar-brand {
@@ -607,14 +550,15 @@ body {
     #section3 p {
         font-size: 0.8em;
     }
-    
+
     #section4 ::placeholder {
         font-size: 0.8em;
     }
-    
+
     #section4 button {
         font-size: 0.8em;
     }
+
     #section6 .middle-form-input {
         width: 14rem;
         height: 3.5rem;
@@ -668,8 +612,58 @@ body {
         padding: 0;
     }
 
-    #section8 .h2 {
-        font-size: 1.5rem;
+    #section7 .brand {
+        height: 18rem;
+        width: 16rem;
     }
 
+    #section8 .h2 {
+        font-size: 1.2rem;
+    }
+
+
+    #section8 .advertise p {
+        font-size: 1em;
+    }
+
+    #section7 .items h2 {
+        font-size: 0.8rem;
+    }
+
+    #section7 .items li {
+        font-size: 0.8em;
+    }
+
+    #section7 .btn-01 {
+        font-size: 1.2em;
+        padding: 0.5em 0.8em;
+        width: 16rem;
+        height: 3rem;
+        text-align: center;
+    }
+
+    #section7 .btn-02 {
+        font-size: 1.2em;
+        padding: 0.5em 0.8em;
+        width: 4rem;
+        height: 3rem;
+        text-align: center;
+    }
+
+
+    #section9 ul>li:nth-child(1) {
+        padding-right: 1em;
+    }
+
+    #section9 ul>li:nth-child(3) {
+        padding-left: 1em;
+    }
+
+    #section9 ul>li>i {
+        font-size: 1.2em;
+    }
+
+    #section9 span {
+        font-size: 1em;
+    }
 }
