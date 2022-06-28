@@ -146,7 +146,7 @@ body {
 #section5 .cards {
     width: 16rem;
     height: 18rem;
-    border: 2px solid rgb(238, 204, 175);
+    /* border: 2px solid rgb(238, 204, 175); */
     background: linear-gradient(180deg, #F5ECE5ff 65%, rgb(185, 99, 34) 35%);
     filter: drop-shadow(0 0 0.75rem rgb(167, 145, 128));
     margin: 1em 2em;
@@ -626,9 +626,11 @@ body {
     #section8 .advertise p {
         font-size: 1em;
     }
+
     #section7 .items {
         padding: 1em 3em;
     }
+
     #section7 .items h2 {
         font-size: 0.8rem;
     }
