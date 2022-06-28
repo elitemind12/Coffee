@@ -626,7 +626,9 @@ body {
     #section8 .advertise p {
         font-size: 1em;
     }
-
+    #section7 .items {
+        padding: 1em 3em;
+    }
     #section7 .items h2 {
         font-size: 0.8rem;
     }
