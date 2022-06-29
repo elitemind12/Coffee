@@ -376,7 +376,9 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: flex-end;
     margin-top: 1em;
+    padding-right: 2em;
 }
 
 #section9 ul>li:nth-child(1) {
@@ -385,7 +387,7 @@ body {
 
 #section9 ul>li:nth-child(3) {
     padding-left: 2em;
-}
+} 
 
 #section9 ul>li>i {
     font-size: 1.5em;
@@ -662,7 +664,7 @@ body {
 
     #section9 ul>li:nth-child(3) {
         padding-left: 1em;
-    }
+    } 
 
     #section9 ul>li>i {
         font-size: 1.2em;
