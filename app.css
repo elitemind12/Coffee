@@ -598,10 +598,33 @@ body {
         margin-right: 1.2rem;
         margin-bottom: 1.8rem;
     }
+    #section6 .middle-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 1.5rem;
+    }
+    
+    #section6 .middle-form-input {
+        width: 19rem;
+        height: 3rem;
+    }
+    
+    #section6 ::placeholder {
+        font-size: 1rem;
+    }
+    
+    #section6 .middle-form-textarea {
+        width: 19rem;
+        font-size: 1rem;
+    }
 
     #section6 .middle-form-btn {
         padding: 0.2em 0.5em;
         font-size: 1.2rem;
+        height: 3rem;
+        width: 19rem;
     }
 
     #section7 .items {
