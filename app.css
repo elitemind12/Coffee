@@ -34,12 +34,14 @@ body {
 
 #section1 {
     background-color: #F5ECE5ff;
+    padding-top: 3em;
 }
 
 #section1 h2 {
     font-size: 2em;
     font-weight: 600;
     color: rgb(101, 42, 3);
+    margin: 0.5em 0;
 }
 
 #section1 p {
@@ -48,7 +50,7 @@ body {
     letter-spacing: 1px;
     font-weight: 300;
     color: rgb(101, 42, 3);
-    margin-bottom: 1.8em;
+    margin-bottom: 1.2em;
 }
 
 #section1 a {
@@ -68,6 +70,7 @@ body {
 
 #section1 .welcome-words {
     background: #F5ECE5ff;
+    margin: 2.2em 0;
 }
 
 
@@ -387,7 +390,7 @@ body {
 
 #section9 ul>li:nth-child(3) {
     padding-left: 2em;
-} 
+}
 
 #section9 ul>li>i {
     font-size: 1.5em;
@@ -422,6 +425,10 @@ body {
 
     .nav-item :hover {
         border-bottom: 2px solid #653818ff;
+    }
+
+    #section1 .welcome-words {
+        padding-left: 5em;
     }
 
     #section2 .cups {
@@ -525,25 +532,33 @@ body {
 }
 
 @media (max-width: 420px) {
+    #section1 .welcome-words {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 1.4em 0;
+    }
     #section1 h2 {
-        font-size: 1.2em;
+        font-size: 1.6em;
     }
 
     #section1 p {
-        font-size: 0.8em;
+        font-size: 1em;
     }
 
     #section1 a {
-        color: white;
-        font-size: 0.6em;
+        font-size: 0.8em;
         padding: 0.5em 0.8em;
-        text-decoration: none;
-        background-color: #9C4301ff;
-        border: none;
     }
-
+    #section1 .Coffee-image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.2em 0;
+    }
     #section1 .Coffee-image img {
-        width: 11em;
+        width: 14em;
     }
 
     #section3 h2 {
@@ -598,6 +613,7 @@ body {
         margin-right: 1.2rem;
         margin-bottom: 1.8rem;
     }
+
     #section6 .middle-form {
         display: flex;
         flex-direction: column;
@@ -605,16 +621,16 @@ body {
         align-items: center;
         margin: 0 1.5rem;
     }
-    
+
     #section6 .middle-form-input {
         width: 19rem;
         height: 3rem;
     }
-    
+
     #section6 ::placeholder {
         font-size: 1rem;
     }
-    
+
     #section6 .middle-form-textarea {
         width: 19rem;
         font-size: 1rem;
@@ -679,7 +695,9 @@ body {
         height: 3rem;
         text-align: center;
     }
-
+    #section8 {
+        background: #ECDCCFff;
+    }
 
     #section9 ul>li:nth-child(1) {
         padding-right: 1em;
@@ -687,7 +705,7 @@ body {
 
     #section9 ul>li:nth-child(3) {
         padding-left: 1em;
-    } 
+    }
 
     #section9 ul>li>i {
         font-size: 1.2em;
